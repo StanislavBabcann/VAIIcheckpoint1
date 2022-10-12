@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Sofia", sans-serif;
+    font-family: "Georgia", "Courier New", monospace;
 }
 
 .header {
@@ -78,6 +78,7 @@ h1{
 }
 
 .main-title p{
+    font-family: "Georgia", "Courier New", monospace;
     font-size: 2.5vw;
     left: 3vw;
     position: absolute;
@@ -85,18 +86,16 @@ h1{
 }
 
 .categories-title{
-    background: green;
+    font-family: "Georgia", "Courier New", monospace;
     position: absolute;
     text-align: center;
     width: 19vw;
-    top: 5.5vw;
+    top: 3vw;
     left: 2.5vw;
 
 }
 
 .text-box{
-
-    background: green;;
     position: absolute;
     top: 28vw;
     left: 12vw;
@@ -110,12 +109,16 @@ h1{
 }
 
 .text-box a{
+    margin-top: 0.2vw;
+    font-family: "Georgia", "Courier New", monospace;
     color: #fff;
     text-decoration: none;
     font-size: 1.5vw;
 }
 
 .hero-btn{
+    margin-bottom: 0.2vw;
+    border-radius: 15%;
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -130,9 +133,17 @@ h1{
 
 
 .hero-btn:hover{
-    border: 1px solid red;
-    background: red;
-    transition: 1s;
+    border: 1px solid #ffffff;
+    background: limegreen;
+    transition: 0.3s;
+    transform: translateX(-5px);
+}
+
+.hero-btn:active {
+    transform: translateX(5px);
+    border: 1px solid #ffffff;
+    background: limegreen;
+    transition: 0.3s;
 }
 
 .best-products-canvas{
@@ -173,7 +184,8 @@ h1{
 }
 
 .best-products-layer:hover{
-    background: green;
+    background: limegreen;
+    opacity: 0.65;
 }
 
 .best-products-layer h3{
